@@ -1,7 +1,12 @@
 .first{
-    background-color: black;
+    background-color: hsl(0, 0%, 0%);
     color: white;
 }
-.second{}
+.second{
+    background-color: hsl(60, 100%, 50%);
+}
 .first,
-.second {}
+.second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
