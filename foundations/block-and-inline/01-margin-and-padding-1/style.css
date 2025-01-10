@@ -15,7 +15,7 @@ body {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -24,6 +24,7 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px;
-  margin-left: 330px;
-  margin-top: 48px;
+  margin-left: auto;
+  /* When the width is defined, this element will take up that specified width,
+  and then automatically push away the remaining space to its left. */
 }
